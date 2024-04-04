@@ -5,14 +5,15 @@
 }
 body {
   font-family: sans-serif;
+  background-color: rgb(173, 199, 151);
 }
 
 .container {
-  max-width: 200px;
+  max-width: 500px;
   margin: 0 auto;
-  background-color: rgb(200, 210, 188);
-  height: 150px;
-  margin-top: 50px;
+  background-color: rgb(146, 232, 86);
+  height: 550px;
+  margin-top: 100px;
   overflow: auto;
 }
 
@@ -26,6 +27,7 @@ body {
   margin-left: 5px;
   border: 1px solid rgb(1, 1, 18);
   background-color: rgb(89, 233, 32);
+  border-radius: 10px;
 }
 .delete-btn {
   width: auto;
@@ -35,30 +37,38 @@ body {
   border: 1px solid rgb(21, 22, 21);
   background-color: rgb(195, 169, 169);
   color: rgb(63, 2, 245);
+  border-radius: 10px;
 }
 .form {
   display: flex;
   text-align: center;
 }
 .input {
-  width: 100px;
+  width: 250px;
   margin-top: 20px;
-  height: 15px;
-  margin-left: 20px;
-  border: 1px solid rgb(181, 199, 179);
+  height: 35px;
+  margin-left: 100px;
+  border: 1px solid rgb(127, 220, 117);
+  border-radius: 20px;
+  background-color: rgb(163, 193, 142);
+  font-size: 20px;
 }
 
 .add-button {
-  width: auto;
-  height: 15px;
+  width: 70px;
+  height: 35px;
   margin-top: 20px;
   margin-left: 20px;
   border: 1px solid rgb(21, 22, 21);
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  border-radius: 20px;
 }
 .sanagich {
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: blue;
 }
 .matn {
   margin-left: 20px;
